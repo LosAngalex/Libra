@@ -1,0 +1,172 @@
+
+.btn {
+   border: 0;
+   border-radius: 4px;
+   color:#FFFBEC;
+   font-family : 'Josefin Sans', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   text-decoration: none;
+   background: #3182F5;
+   box-shadow: 1px 1px 4px #436F96;
+   display: flex;
+   margin: 0 auto;
+   width: 200px;
+   padding: 10px 30px;
+   text-align: center;
+
+
+}
+
+h2 {
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    height: 520px;
+    background-repeat: no-repeat;
+    background: url(../images/spoons2.png);
+}
+
+.logo {
+    width: 98;
+    height: 64;
+}
+
+.header {
+    background-color: #FFFBEC;
+    height: 86px;
+    width: auto;
+    
+}
+    
+#logo {
+    margin-left: 71px;
+    margin-top: 12px;
+    position: relative;
+}
+
+ul {
+    display: inline;
+    text-align: right;
+    float: right;
+    margin-top: 30px;
+    
+}
+ 
+li {
+    list-style-type: none;
+    display: inline;
+    color: #3182F5;
+    font-size: 22px; 
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    padding: 40px;
+}
+
+#products {
+    margin: auto;
+    margin-top: 35px;
+    display: block;
+    height: auto;
+    width: auto;
+    
+}
+
+p {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+} 
+
+#spoons {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    max-height: 500px;
+    width: 100%; 
+}
+
+.left {
+    float: left;
+    width: 540px;
+    height: 332px;
+    margin-left: 71px;
+    margin-top: 12px;
+    position: relative
+}
+
+.right {
+    float: right;
+    width: 540px;
+    height: 332px;
+    margin-right: 71px;
+    margin-top: 12px;
+    position: relative
+
+}
+
+
+
+.about-first, .about-second {
+  clear: both;
+}
+
+.about-first .left, .about-second .right {
+  border: 10px solid;
+  background-color: white;
+  border-image: url(../images/fabricguatemala.jpg) 10;
+}
+
+#aboutimage1 {
+    height: 332px;
+    width: 550px;
+    max-height: 332px;
+    max-width: 550px;
+    padding-left: 30px;
+}
+
+#aboutimage2 {
+    height: 332px;
+    width: 550px;
+    max-height: 332px;
+    max-width: 550px;
+    padding-right: 30px;
+}
+
+.one-third {
+    background-color: #ffffff;
+    width: 96%;
+    float: center;
+    position: relative;
+    height: 600px;
+    max-width: 350px;
+    margin: 60px 2% 20px;
+    display: inline-block;
+}
+
+#third {
+    max-height: 100%;
+    max-width: 318px;
+    margin-left: 30px;
+}
