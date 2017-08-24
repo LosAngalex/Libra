@@ -9,7 +9,6 @@
    text-decoration: none;
    background: #3182F5;
    box-shadow: 1px 1px 4px #436F96;
-   display: flex;
    margin: 0 auto;
    width: 200px;
    padding: 10px 30px;
@@ -36,9 +35,18 @@ h3 {
     font-weight: 300;
     font-size: 32px;
     text-align: center;
-    height: 520px;
-    background-repeat: no-repeat;
-    background: url(../images/spoons2.png);
+}
+
+.spoons-background {
+  text-align: center;
+  height: 520px;
+  background-repeat: no-repeat;
+  background: url(../images/spoons2.png);
+}
+
+.spoons-text {
+  position: relative;
+  top: 60%;
 }
 
 .logo {
@@ -50,16 +58,16 @@ h3 {
     background-color: #FFFBEC;
     height: 86px;
     width: auto;
-    
+
 }
 
 .footer {
     background-color: #FFFBEC;
     height: 210px;
     width: auto;
-    
+
 }
-    
+
 #logo {
     margin-left: 71px;
     margin-top: 12px;
@@ -71,14 +79,14 @@ ul {
     text-align: right;
     float: right;
     margin-top: 30px;
-    
+
 }
- 
+
 li {
     list-style-type: none;
     display: inline;
     color: #3182F5;
-    font-size: 22px; 
+    font-size: 22px;
     font-weight: 300;
     font-family: 'Josefin Sans';
     padding: 40px;
@@ -90,7 +98,7 @@ li {
     display: block;
     height: auto;
     width: auto;
-    
+
 }
 
 p {
@@ -103,7 +111,7 @@ p {
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 50px;
-} 
+}
 
 #spoons {
     position: relative;
@@ -111,25 +119,27 @@ p {
     margin: auto;
     margin-top: 30px;
     max-height: 500px;
-    width: 100%; 
+    width: 100%;
 }
 
 .left {
     float: left;
-    width: 540px;
+    /*width: 540px;*/
+    width: 50%;
     height: 332px;
-    margin-left: 71px;
+    /*margin-left: 71px;*/
     margin-top: 12px;
-    position: relative
+    position: relative;
 }
 
 .right {
     float: right;
-    width: 540px;
+    /*width: 540px;*/
+    width: 50%;
     height: 332px;
-    margin-right: 71px;
+    /*margin-right: 71px;*/
     margin-top: 12px;
-    position: relative
+    position: relative;
 
 }
 
@@ -145,30 +155,35 @@ p {
   border-image: url(../images/fabricguatemala.jpg) 10;
 }
 
+/* stack these images when screen size goes below 768 */
+
 #aboutimage1 {
-    height: 332px;
-    width: 550px;
-    max-height: 332px;
+    /*height: 332px;*/
+    /*width: 550px;*/
+    width: 100%;
+    /*max-height: 332px;*/
     max-width: 550px;
     padding-left: 30px;
 }
 
 #aboutimage2 {
-    height: 332px;
-    width: 550px;
-    max-height: 332px;
+    /*height: 332px;*/
+    /*width: 550px;*/
+    width: 100%;
+    /*max-height: 332px;*/
     max-width: 550px;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
 }
 
 .one-third {
     background-color: #ffffff;
-    width: 96%;
-    float: center;
+    width: 33.33%;
+    float: left;
     position: relative;
     height: 600px;
-    max-width: 350px;
-    margin: 60px 2% 20px;
+    /*max-width: 350px;*/
+    /*margin: 60px 2% 20px;*/
+    margin-top: 60px;
     display: inline-block;
 }
 
@@ -183,4 +198,8 @@ p {
     margin-top: 12px;
     position: relative;
 
+}
+
+.container {
+  text-align: center;
 }
